@@ -17,8 +17,7 @@
   --fs-p-footer: 1.5rem;
 }
 
-body {
-  font-size: 1.6rem; 
+body {  
   font-family: var(--ff-body);
   text-align: center;
   margin: 0;
@@ -26,11 +25,11 @@ body {
 
 #hero {
   width: 59rem;
-  margin: 0 auto 7.2rem;
+  margin: 0 auto 7rem;
 }
 
 #hero img {
-  margin-bottom: 7.2rem;
+  margin-bottom: 7rem;
 }
 
 h1 {
@@ -38,7 +37,7 @@ h1 {
   font-size: var(--fs-h1);
   line-height: 5.5rem;
   font-weight: normal;
-  margin-bottom: 3.2rem;
+  margin-bottom: 3rem;
 }
 
 h1 span {
@@ -47,6 +46,10 @@ h1 span {
 
 span, a {
   color: var(--color-span-a);
+}
+
+#p-finesse {
+  margin-top: 2.5rem;
 }
 
 p, #footer {
@@ -62,7 +65,7 @@ p, #footer {
 .line {
   width: 57rem;
   height: 0;
-  margin: 0 auto .8rem;
+  margin: 7.5rem auto .8rem;
   border: 1px solid hsl(210, 19%, 94%);
 }
 
